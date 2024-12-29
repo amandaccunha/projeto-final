@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros - Página Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Motor e Rodas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="modelos.html">Modelos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="avaliacoes.html">Avaliações</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero text-center py-5">
+        <h1>Bem-vindo ao Mundo dos Carros!</h1>
+        <p>Explore modelos, avaliações e as últimas novidades sobre o universo automobilístico.</p>
+    </section>
+
+    <!-- Carrossel de Imagens -->
+    <section class="gallery py-5">
+        <h2 class="text-center mb-4">Galeria de Carros</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg" class="d-block w-100 carousel-img" alt="Carro 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/05/FLP6569_v1-e1621619897215.jpg?quality=70&strip=info" class="d-block w-100 carousel-img" alt="Carro 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://fotos-jornaldocarro-estadao.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2024/09/30143857/P90528768_highRes_rolls-royce-spectre.jpg.webp" class="d-block w-100 carousel-img" alt="Carro 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://image1.mobiauto.com.br/images/api/images/v1.0/422471169/transform/t_crop" class="d-block w-100 carousel-img" alt="Carro 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Modelos de Carros. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

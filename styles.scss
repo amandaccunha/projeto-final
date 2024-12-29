@@ -1,0 +1,40 @@
+/* Estilos principais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 80px 0;
+}
+
+.carousel-img {
+    object-fit: contain;
+    height: 350px;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    .carousel-img {
+        height: 300px;
+    }
+}
